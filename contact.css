@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(221,198,231,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Satisfy;
+    color:rgb(64, 5, 69);
+    text-shadow: 2px 2px 1px;
+}
+h1:hover{
+    color:rgb(155, 9, 168);
+}
+:root{
+    --mainColor:#451414;
+    --primaryColor:#880391;
+}
+/*.imagediv img{
+    width:50%;
+    height: 80vh;
+    border-radius: 8px;
+    border:2px solid var(--mainColor);
+    box-shadow: 4px 3px 2px 1px var(--mainColor); 
+
+}*/
+.maindiv{
+    display: flex;
+}
+
+.img{
+    float: right;
+    width:70%;
+    height: 80vh;    
+    border-radius: 8px;
+    border:2px solid var(--mainColor);
+    box-shadow: 1px 2px 3px 5px var(--mainColor);
+}
+.contact{
+        padding-left: 100px;        
+}
+.contact h2{
+    font-size: 40px;
+}
+.contact h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color: #950505;
+}
+input{
+    width: 18rem;
+    height: 2rem;
+}
+.msg{
+    height:5rem;
+}
+.sub{
+    width: 6rem;
+    background-color: #eb1818;
+    border-radius: 3px;
+    color:aliceblue;
+    text-align: center; 
+    margin-left: 100px;   
+}
+.sub:hover{
+    background-color: #6a1515;
+}
+@media screen and (max-width: 800px){
+    .img{
+        display: none;
+    }     
+}
+@media screen and (max-width: 600px){
+    .contact{
+        margin-bottom: 50px;
+        padding-left: 50px;
+    }
+}
+
+    
+
